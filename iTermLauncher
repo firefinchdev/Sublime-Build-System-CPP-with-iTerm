@@ -14,5 +14,3 @@ tell application "iTerm"
 end tell
 end run
 EOF
-
-# /termi.sh "~/Desktop/yo && read && exit"
