@@ -17,6 +17,18 @@
 		{
 			"name": "Run in New Terminal",
 			"shell_cmd": "g++ \"${file}\" -o \"${file_path}/${file_base_name}\" && iTermLauncher \"clear && \\\"${file_path}/${file_base_name}\\\" && echo \\\"\n\nPress Return to exit...\\\" && read && exit\""
+		},
+		{
+			"name": "C++11 - Run",
+			"shell_cmd": "g++ \"${file}\" -std=c++11 -o \"${file_path}/${file_base_name}\" && \"${file_path}/${file_base_name}\""
+		},
+		{
+			"name": "C++11 - Run in New Terminal - No Warning",
+			"shell_cmd": "g++ \"${file}\" -std=c++11 -o \"${file_path}/${file_base_name}\" && iTermLauncher \"clear && \\\"${file_path}/${file_base_name}\\\" && read && exit\""
+		},
+		{
+			"name": "C++11 - Run in New Terminal",
+			"shell_cmd": "g++ \"${file}\" -std=c++11 -o \"${file_path}/${file_base_name}\" && iTermLauncher \"clear && \\\"${file_path}/${file_base_name}\\\" && echo \\\"\n\nPress Return to exit...\\\" && read && exit\""
 		}
 	]
 }
